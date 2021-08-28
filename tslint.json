@@ -1,0 +1,16 @@
+{
+    "rules": {
+      "directive-selector": [true, "attribute", "we-grow", "camelCase"],
+      "component-selector": [true, "element", "we-grow", "kebab-case"],
+      "semicolon": [true, "always"],
+      "no-console": [true, "log", "error"],
+      "interface-name": [true, "always-prefix"],
+      "no-parameter-reassignment": true,
+      "no-shadowed-variable": true,
+      "no-this-assignment": [true, {"allowed-names": ["^self$"], "allow-destructuring": true}],
+      "cyclomatic-complexity": true,
+      "prefer-switch": [true, {"min-cases": 2}],
+      "eofline": true,
+      "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
+    }
+  }
